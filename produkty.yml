@@ -1,0 +1,71 @@
+##############################################################
+#███╗░░██╗██╗░█████╗░███████╗░██████╗██╗░░██╗░█████╗░██████╗░#
+#████╗░██║██║██╔══██╗██╔════╝██╔════╝██║░░██║██╔══██╗██╔══██╗#
+#██╔██╗██║██║██║░░╚═╝█████╗░░╚█████╗░███████║██║░░██║██████╔╝#
+#██║╚████║██║██║░░██╗██╔══╝░░░╚═══██╗██╔══██║██║░░██║██╔═══╝░#
+#██║░╚███║██║╚█████╔╝███████╗██████╔╝██║░░██║╚█████╔╝██║░░░░░#
+#╚═╝░░╚══╝╚═╝░╚════╝░╚══════╝╚═════╝░╚═╝░░╚═╝░╚════╝░╚═╝░░░░░#
+##############################################################
+#                       NiceShop v1.0                        #
+#                Autor: Lampart (__Lampart__)                #
+#                 Discord: __Lampart__#2676                  #
+#                                                            #
+#   Zastrzeżone Prawa do zmiany autora, udostępniana jako    #
+#  własny skrypt, Wykorzystywania go w celach zarobkowych,   #
+#  Przerabiania i publikowania ulepszonych wersji bez zgody  #
+#                          autora                            #
+#                                                            #
+#   Użytkownik ma prawo do zmiany skryptu na własny użytek   #
+#                                                            #
+#  Będę wdzieczny za poinformowanie mnie na discord, jeżeli  #
+#          uzywasz tego skriptu na swoim serwerze            #
+##############################################################
+
+#Maksymalna ilosc produktow: 54
+
+produkty:
+  1:
+    przedmiot: 'dirt' #Item który pojawi się w GUI
+    nazwa: 'Vip' #Nazwa produktu
+    lore1: 'Wyslij SMS o treści xxx' #Opis1
+    lore2: 'Na numer xxx' #Opis2
+    lore3: 'Koszt 1 ZŁ (1.23 z VAT)' #Opis3
+    kwota: 1 #Kwota (Odpowiada numerkowi z Sekretu)
+    komenda: 'say {PLAYER} kupił Vipa' #Komenda po udanym zakupie ( użyj {PLAYER} w miejscu gdzie ma być nick gracza )
+    pusty: 'false' #true = Puste okienko w gui / false = normalny produkt
+  2:
+    przedmiot: ''
+    nazwa: ''
+    lore1: ''
+    lore2: ''
+    lore3: ''
+    kwota: 0
+    komenda: ''
+    pusty: 'true'
+  3:
+    przedmiot: 'dirt' #Item który pojawi się w GUI
+    nazwa: 'Vip' #Nazwa produktu
+    lore1: 'Wyslij SMS o treści xxx' #Opis1
+    lore2: 'Na numer xxx' #Opis2
+    lore3: 'Koszt 1 ZŁ (1.23 z VAT)' #Opis3
+    kwota: 1 #Kwota (Odpowiada numerkowi z Sekretu)
+    komenda: 'say {PLAYER} kupił Vipa' #Komenda po udanym zakupie ( użyj {PLAYER} w miejscu gdzie ma być nick gracza )
+    pusty: 'false' #true = Puste okienko w gui / false = normalny produkt
+  4:
+    przedmiot: ''
+    nazwa: ''
+    lore1: ''
+    lore2: ''
+    lore3: ''
+    kwota: 0
+    komenda: ''
+    pusty: 'true'
+  5:
+    przedmiot: 'dirt' #Item który pojawi się w GUI
+    nazwa: 'Vip' #Nazwa produktu
+    lore1: 'Wyslij SMS o treści xxx' #Opis1
+    lore2: 'Na numer xxx' #Opis2
+    lore3: 'Koszt 1 ZŁ (1.23 z VAT)' #Opis3
+    kwota: 1 #Kwota (Odpowiada numerkowi z Sekretu)
+    komenda: 'say {PLAYER} kupił Vipa' #Komenda po udanym zakupie ( użyj {PLAYER} w miejscu gdzie ma być nick gracza )
+    pusty: 'false' #true = Puste okienko w gui / false = normalny produkt
